@@ -22,6 +22,13 @@ body {
   font-size: 26px;
 }
 
+img {
+  /* pour que l'image ne se déforme pas */
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+}
+
 .nav ul {
   display: flex;
   list-style-type: none;
@@ -98,7 +105,7 @@ body {
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #fff;
+  color: #000000;
   background-color: #beb45a;
   border-radius: 0;
 }
